@@ -16,6 +16,11 @@ It takes around 15sec to show up software keyboard.
 
 The example page: [https://quwahara.github.io/inputs-4000/cb-txt-4000-none.html](https://quwahara.github.io/inputs-4000/cb-txt-4000-none.html)
 
+Video: [https://youtu.be/ierX3dIyt_A](https://youtu.be/ierX3dIyt_A)
+
+* On the 2nd tab, CB TXT 4000 None, it takes 15sec to show up keyboard after touch input1.
+* On the other tabs, CB TXT 4000 Block, CB 4000 None, TXT 4000 None,  keyboard shows up immediately.
+
 ## Example
 
 ```html
