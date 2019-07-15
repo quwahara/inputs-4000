@@ -59,8 +59,8 @@ iOS 12.3.1
 It doesn't happen:
 
 * If `<div>` has `style="display: block;"`.  The page is: https://quwahara.github.io/inputs-4000/cb-txt-4000-block.html
-* If the 4,000 of `<div>` has only `<input type="checkbox">`.  The page is: https://quwahara.github.io/inputs-4000/cb-4000.html
-* If the 4,000 of `<div>` has only `<input type="text">`.  The page is: https://quwahara.github.io/inputs-4000/txt-4000.html
+* If the 4,000 of `<div>` has only `<input type="checkbox">`.  The page is: https://quwahara.github.io/inputs-4000/cb-4000-none.html
+* If the 4,000 of `<div>` has only `<input type="text">`.  The page is: https://quwahara.github.io/inputs-4000/txt-4000-none.html
 
 I hope to fix this, thanks.
 
