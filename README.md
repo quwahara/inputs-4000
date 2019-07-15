@@ -2,17 +2,19 @@
 
 ## Abstract
 
-Software keyboard show-up delays on iOS Safari in specific case.
+Software keyboard show-up delays on iOS Safari in a specific case.
 This is the proof codes for it.
 
 ## Reproduce
 
-There is a `<div>` that has `style="display: none;"`.
-It calls none-div.
-Put 4,000 of `<div>` under none-div that has `<input type="checkbox">` and `<input type="text">`.
-Put `<input type="text" name="input1">` over none-div.
-Touch `<input type="text" name="input1">`.
-It takes around 15sec to show up software keyboard.
+There is a `<div>` that has `style="display: none;"`.  
+It calls 'none-div' in later.  
+Put 4,000 of `<div>` under none-div that has `<input type="checkbox">` and `<input type="text">`.  
+Put `<input type="text" name="input1">` over none-div.  
+Touch `<input type="text" name="input1">`.  
+It takes around 15sec to show up software keyboard.  
+
+The example page:  https://quwahara.github.io/inputs-4000/cb-txt-4000-none.html
 
 ## Example
 
@@ -56,9 +58,9 @@ iOS 12.3.1
 
 It doesn't happen:
 
-* If `<div>` has `style="display: block;"`.
-* If the 4,000 of `<div>` has only `<input type="checkbox">`.
-* If the 4,000 of `<div>` has only `<input type="text">`.
+* If `<div>` has `style="display: block;"`.  The page is: https://quwahara.github.io/inputs-4000/cb-txt-4000-block.html
+* If the 4,000 of `<div>` has only `<input type="checkbox">`.  The page is: https://quwahara.github.io/inputs-4000/cb-4000.html
+* If the 4,000 of `<div>` has only `<input type="text">`.  The page is: https://quwahara.github.io/inputs-4000/txt-4000.html
 
 I hope to fix this, thanks.
 
