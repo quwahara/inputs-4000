@@ -14,7 +14,7 @@ Put `<input type="text" name="input1">` over none-div.
 Touch `<input type="text" name="input1">`.  
 It takes around 15sec to show up software keyboard.  
 
-The example page:  https://quwahara.github.io/inputs-4000/cb-txt-4000-none.html
+The example page: [https://quwahara.github.io/inputs-4000/cb-txt-4000-none.html](https://quwahara.github.io/inputs-4000/cb-txt-4000-none.html)
 
 ## Example
 
@@ -58,9 +58,9 @@ iOS 12.3.1
 
 It doesn't happen:
 
-* If `<div>` has `style="display: block;"`.  The page is: https://quwahara.github.io/inputs-4000/cb-txt-4000-block.html
-* If the 4,000 of `<div>` has only `<input type="checkbox">`.  The page is: https://quwahara.github.io/inputs-4000/cb-4000-none.html
-* If the 4,000 of `<div>` has only `<input type="text">`.  The page is: https://quwahara.github.io/inputs-4000/txt-4000-none.html
+* If `<div>` has `style="display: block;"`.  The page is: [https://quwahara.github.io/inputs-4000/cb-txt-4000-block.html](https://quwahara.github.io/inputs-4000/cb-txt-4000-block.html)
+* If the 4,000 of `<div>` has only `<input type="checkbox">`.  The page is: [https://quwahara.github.io/inputs-4000/cb-4000-none.html](https://quwahara.github.io/inputs-4000/cb-4000-none.html)
+* If the 4,000 of `<div>` has only `<input type="text">`.  The page is: [https://quwahara.github.io/inputs-4000/txt-4000-none.html](https://quwahara.github.io/inputs-4000/txt-4000-none.html)
 
 I hope to fix this, thanks.
 
